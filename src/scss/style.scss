@@ -1,0 +1,42 @@
+//URL
+$bannerURL: '../assets/images/image-banner.jpg';
+
+//Color
+$white: #ffffff;
+$blue: #3186ea;
+$blueSoft: #e4f4ff;
+
+.banner {
+  background: url($bannerURL);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.nav {
+  color: $white !important;
+}
+
+.banner-button {
+  background: $blue !important;
+  color: $white !important;
+  width: 15%;
+  padding: 15px !important;
+}
+
+.banner-text {
+  padding: 0px !important;
+  margin-top: 150px;
+  div {
+    color: $white !important;
+  }
+}
+
+.margin-header-event {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  div {
+    font-size: 2.7rem !important;
+    font-weight: normal !important;
+  }
+}
