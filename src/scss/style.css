@@ -26,4 +26,19 @@
     font-size: 2.7rem !important;
     font-weight: normal !important; }
 
+.event {
+  margin-bottom: 50px !important; }
+
+.information .information-text, .information .information-image {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important; }
+
+.information {
+  background: #e4f4ff; }
+  .information .information-text {
+    padding-left: 200px !important; }
+  .information p {
+    line-height: 25px;
+    font-size: 1.1rem; }
+
 /*# sourceMappingURL=style.css.map */

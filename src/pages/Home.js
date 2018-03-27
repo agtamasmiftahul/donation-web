@@ -3,6 +3,7 @@ import { Grid } from 'semantic-ui-react'
 
 import HeaderGlobal from '../components/large/Header'
 import Event from '../components/large/Event'
+import Information from '../components/large/Information'
 
 class Home extends Component {
   render(){
@@ -13,6 +14,9 @@ class Home extends Component {
         </Grid.Column>
         <Grid.Column>
           <Event />
+        </Grid.Column>
+        <Grid.Column>
+          <Information />
         </Grid.Column>
       </Grid>
     )

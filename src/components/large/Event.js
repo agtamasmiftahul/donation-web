@@ -7,7 +7,7 @@ import CardEvent from '../medium/CardEvent'
 class Event extends Component {
   render(){
     return(
-      <div>
+      <div className='event'>
         <Grid centered columns={1}>
           <Grid.Column className='margin-header-event'>
             <HeaderEvent />

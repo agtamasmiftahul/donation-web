@@ -40,3 +40,27 @@ $blueSoft: #e4f4ff;
     font-weight: normal !important;
   }
 }
+
+.event{
+  margin-bottom: 50px !important;
+}
+
+%information-shared {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.information {
+  background: $blueSoft;
+  .information-text {
+    @extend %information-shared;
+    padding-left:200px !important;
+  }
+  .information-image {
+    @extend %information-shared;
+  }
+  p {
+    line-height: 25px;
+    font-size: 1.1rem;
+  }
+}
