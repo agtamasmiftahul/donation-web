@@ -1,8 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
 import { AppContainer } from 'react-hot-loader'
 
@@ -14,8 +12,6 @@ const render = Component => {
     document.getElementById('root')
   )
 }
-
-registerServiceWorker()
 
 render(App)
 
