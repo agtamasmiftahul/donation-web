@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Dropdown } from 'semantic-ui-react'
+import { Dropdown, Form } from 'semantic-ui-react'
 import axios from 'axios'
 
 class FormOptions extends Component {
@@ -33,13 +33,13 @@ class FormOptions extends Component {
 
   render(){
     return(
-      <Dropdown text='Nama Rumah Sakit'>
+      <Form.Select label='Nama Rumah Sakit' placeholder='Pilih rumah sakit'>
         <Dropdown.Menu>
           {this.state.hospitals.map(hospital =>
             <Dropdown.Item key={hospital.kode_rumah_sakit} text={hospital.nama_rumah_sakit} />
           )}
         </Dropdown.Menu>
-      </Dropdown>
+      </Form.Select>
     )
   }
 }
