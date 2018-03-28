@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Header, Button } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 class BannerText extends Component {
   render(){
@@ -15,9 +16,11 @@ class BannerText extends Component {
         </Grid.Column>
         <Grid.Column>
           <center>
-            <Button className='banner-button'>
-              GALANG DANA
-            </Button>
+            <Link to='/campaign'>
+              <Button className='banner-button'>
+                GALANG DANA
+              </Button>
+            </Link>
           </center>
         </Grid.Column>
       </Grid>

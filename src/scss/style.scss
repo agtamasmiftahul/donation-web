@@ -5,6 +5,7 @@ $bannerURL: '../assets/images/image-banner.jpg';
 $white: #ffffff;
 $blue: #3186ea;
 $blueSoft: #e4f4ff;
+$grey: #f2f2f5;
 
 .banner {
   background: url($bannerURL);
@@ -68,4 +69,41 @@ $blueSoft: #e4f4ff;
 .footer {
   padding-left: 50px !important;
   padding-right: 50px !important;
+}
+
+.campaign-background {
+  background: $grey;
+}
+
+.header-campaign {
+  background: $blue !important;
+  padding: 10px !important;
+}
+
+.form-background {
+  padding: 50px !important;
+  .form {
+    background: $white !important;
+    padding: 50px !important;
+    padding-top:20px !important;
+    border-radius: 5px;
+  }
+  .form-header {
+    font-weight: normal !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.form-content {
+  label {
+    font-weight: normal !important;
+  }
+}
+
+.form-button {
+  background: $blue !important;
+  color: $white !important;
+  padding: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }

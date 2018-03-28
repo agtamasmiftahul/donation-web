@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Grid } from 'semantic-ui-react'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
+import Campaign from './pages/Campaign'
 
 class App extends Component {
   render(){
@@ -10,7 +11,8 @@ class App extends Component {
       <BrowserRouter>
         <Grid centered columns={1}>
           <Grid.Column>
-            <Home />
+            <Route exact path='/' component={Home} />
+            <Route path='/campaign' component={Campaign} />
           </Grid.Column>
         </Grid>
       </BrowserRouter>

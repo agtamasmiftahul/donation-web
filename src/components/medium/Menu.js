@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 import { Menu, Image, Divider, Header, Icon } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 class MenuBar extends Component {
   render(){
     return(
       <Menu secondary fluid className='nav'>
         <Menu.Menu position='left'>
-          <Menu.Item>
-            <Image src='images/logo-kitabisa-white.png' size='small'/>
-          </Menu.Item>
+          <Link to='/'>
+            <Menu.Item>
+              <Image src='images/logo-kitabisa-white.png' size='small'/>
+            </Menu.Item>
+          </Link>
         </Menu.Menu>
         <Menu.Menu position='right'>
           <Menu.Item>
